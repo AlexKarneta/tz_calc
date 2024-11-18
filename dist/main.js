@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("function component(text) {\n  const element = document.createElement(\"h1\");\n  element.textContent = text;\n  return element;\n}\n\ndocument.body.prepend(component(\"Проект собран на Webpack\"));\n\n\n//# sourceURL=webpack://tz_calc/./src/index.js?");
+eval("// function component(text) {\n//   const element = document.createElement(\"h1\");\n//   element.textContent = text;\n//   return element;\n// }\n\n// document.body.prepend(component(\"Проект собран на Webpack\"));\n\n\n//# sourceURL=webpack://tz_calc/./src/index.js?");
 
 /***/ })
 
