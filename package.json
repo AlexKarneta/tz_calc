@@ -8,15 +8,19 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "webpack serve --open --mode development",
     "deploy": "gh-pages -d dist",
-    "build": "webpack --config=webpack.config.js"
+    "build": "webpack --config=webpack.config.js",
+    "start": "webpack-dev-server --open",
+    "open": "http-server build -a localhost -p 1234 -o"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "concurrently": "^9.1.0",
     "css-loader": "^7.1.2",
     "gh-pages": "^6.2.0",
     "html-webpack-plugin": "^5.6.3",
+    "http-server": "^14.1.1",
     "style-loader": "^4.0.0",
     "webpack": "^5.96.1",
     "webpack-cli": "^5.1.4",

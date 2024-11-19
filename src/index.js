@@ -139,9 +139,3 @@ deleteButton.addEventListener("click", (button) => {
   calculator.delete();
   calculator.updateDisplay();
 });
-
-const theme = document.getElementById("uniq");
-const out = document.getElementById("out");
-theme.addEventListener("click", () => {
-  out.classList.add("output-white");
-});
